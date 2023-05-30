@@ -1,0 +1,490 @@
+
+
+
+html{
+
+    font-size: 1px;
+    scroll-behavior: smooth;
+
+}
+
+
+
+*{
+    margin: 0;padding: 0;
+    font-family: sans-serif;
+
+}
+
+/* --------header section -----------  */
+
+header{
+    background-color: #201f1f;
+    border-bottom: 3.5rem solid #525151;
+    font-size: 26.4rem;
+    color: white;
+    position: sticky;
+    top: 0%;
+    z-index: 01;
+}
+#bar{
+    padding: 23rem 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo a{
+    text-decoration: none;
+}
+#logo a span{
+    color: red;
+    font-size: 32rem;
+}
+#logo a:not(span){
+    color: white;
+}
+.checkbtn {
+    display: none;
+}
+#check{
+    display: none;
+}
+#list{
+    display: flex;
+    list-style-type:none ;
+    
+}
+.items{
+    padding: 0rem 30rem;
+    transition: all .5s ease;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    transition: all .5s ease;
+    
+    
+}
+.items:hover {
+    transform: scale(1.5);
+    
+}
+.items:hover .link{
+    background-color: #fff;
+    color: #fc4a6e;
+    border-radius: 15rem;
+    padding: 5rem;
+
+}
+
+
+/* header section   */
+
+
+
+/* ---------main section------------  */
+
+
+/* hero section  */
+
+
+#hero{
+
+    min-height: 91vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(hero.svg);
+    background-size:cover;
+    
+}
+#name{
+    color: #ffffff;
+    font-size: 40rem;
+}
+#img{
+
+}
+#img img{
+    border: 15rem solid rgb(219, 139, 139);
+    border-radius: 50%;
+    height: 300rem;
+    background: #4a454b;
+}
+#hero div:nth-child(3){
+    color: rgb(255, 255, 255);
+    font-size: 20rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hero section  */
+
+
+/* about me section  */
+
+
+#about{
+    min-height: 930rem;
+    background: url(About.svg);
+    display: flex;
+
+}
+
+#box3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40%;
+}
+#box3 div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 700rem;
+    min-width: 600rem;
+    background-color: rgb(104, 96, 96);
+    border-radius: 50rem 50rem 20rem 20rem;
+}
+#box3 div img{
+    height: 600rem;
+}
+
+/* about me sectiom  */
+#box4{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    
+}
+
+#box4 div:not(#skl){
+    margin-left: 100rem;
+    width: 920rem;
+    color: rgb(255, 255, 255);
+    
+}
+#box4 div span{
+    font-size: 48rem;
+    color: rgb(243, 122, 122);
+}
+#box4 div p{
+    font-size: 24rem;
+}
+#skl{
+    font-size: 48rem;
+    text-decoration: underline;
+}
+#skl hr{
+    width: inherit;
+}
+
+#box4 div ul {
+    list-style-type: none;
+    
+}
+#box4 div ul li:nth-child(odd){
+    font-size: 16rem;
+    color: rgb(243, 122, 122);
+    
+
+}
+#box4 div ul li:nth-child(even){
+    font-size: 24rem;
+    line-height: 40rem;
+
+}
+
+
+
+/* about me  section   */
+
+
+
+
+/* Services section  */
+
+
+#box5{
+    background: linear-gradient(rgb(35, 35, 35),rgb(51,50,50) );
+
+}
+#box5 p{
+
+    font-size: 48rem;
+    color: wheat;
+    padding-top: 70rem;
+    padding-left: 195rem;
+}
+#srvcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80rem;
+
+
+
+
+    padding:40rem 100rem 100rem 100rem;
+}
+.srv{
+    border-radius: 20rem ;
+    width: 400rem;
+    font-size: 32rem;
+    transform: scale(1);
+    background-color:#464444;
+    color: #ffffff;
+    padding: 30rem;
+    transition: all 1s ease;
+}
+#gap{
+    display: none;
+}
+.ser-img{
+    font-size: 64rem;
+}
+
+
+.srv:hover{
+    background-color: #fc4a6e;
+    transform: scale(1.1);
+    color: #ffffff;
+    transition: all .85s ease;
+}
+
+
+
+/* Services Section  */
+
+
+/* Contact section  */
+#contact{
+    background: url(Contact.svg);
+    padding-bottom: 50rem;
+}
+#contact p{
+    text-align: center;
+    font-size: 64rem;
+    color: #ffffff;
+}
+#concontainer{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 100rem;
+}
+.concol{
+    display: flex;
+    flex-direction: column;
+    row-gap: 70rem;
+}
+.con-list{
+    list-style: none;
+}
+.linkcon{
+    display: flex;
+    align-items: center;
+}
+.clink{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    display: none;    
+    font-size: 32rem;
+    transform: scale(1);
+    transition: transform .5s ease;
+}
+
+.clinkimg i{
+    font-size: 64rem;
+    color: #dfb6bf;
+    transform: scale(1);
+    transition: all .5s ease;
+}
+.clinkimg2 i{
+    font-size: 64rem;
+    color: #dfb6bf;
+    transform: scale(1);
+    transition: all .5s ease;
+}
+.clinkimg:hover i{
+    color: #fc4a6e;
+    transform: scale(1.5);
+    transition: all .5s ease;
+}
+.clinkimg2:hover i{
+    color:#fc4a6e;
+    transform: scale(1.5);
+    transition: all .5s ease;
+}
+
+.clinkimg:hover ~ a{
+    display: block;
+    left: 36%;
+    
+}
+.clinkimg2:hover ~ a{
+    display: block;
+    left: 52%;
+}
+
+
+/* Contact Section  */
+
+/* ----------main section-------------- */
+
+/* ----------------Footer section------------------ */
+
+#cpyr{
+    
+    color: #ffffff;
+    background-color: #795050;
+   font-size: 24rem;
+}
+#cpyr div{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width:1080px) {
+
+html{
+    font-size: 5.74%;
+}
+
+
+ /* -----------header section --------------------- */
+
+
+ 
+#logo{
+    order: 1;
+}
+
+    .checkbtn{
+        display: block;
+        cursor: pointer;
+        order: 3;
+    }
+    #list{
+        display: none;
+
+    }
+    #bar{
+        justify-content: space-between;
+    }
+    #check:checked ~ #list{
+        display: block;
+        order: 2;
+
+    }
+
+
+
+     /* -----------header section --------------------- */
+
+
+
+     /* main section  */
+
+
+    .bigbox :not(#contact){
+        flex-wrap: wrap;
+    }
+
+
+    .box{
+        min-width: 100%;
+    }
+
+
+    #box3{
+        display: none;
+    }
+
+
+    #box4 div:not(#skl){
+        margin: 10%;
+    }
+    #srvcon{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    #box5 p{
+        padding-left: 0;
+        text-align: center;
+        
+    }
+
+    .srv{
+        width: 70vw;
+    }
+
+
+
+    #concontainer{
+        row-gap: 40rem;
+    }
+    .concol{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .hl{
+        color: #f5748e;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:1366px){
+    html{
+        font-size: 5%;
+    }
+}
+
+@media screen and (max-width:1280px){
+    html{
+        font-size: 4.3%;
+    }
+}
+
+
+
+
+
